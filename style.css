@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+
+}
